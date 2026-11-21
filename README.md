@@ -2,6 +2,8 @@
 
 Radiolarian is a browser-based drawing tool for exploring the silica skeletons of radiolarians. A Rust WebAssembly worker grows a chambered bell or concentric sphere and traces the pencil strokes along its surface. A WebGPU shader combines the hatching layers so you can adjust their strength on the finished drawing.
 
+![Chambered bell for seed 31 in the Radiolarian viewer, with specimen and shading controls on the right.](docs/radiolarian-viewer.png)
+
 ## Run locally
 
 From the project directory, build the renderer with Rust and serve the viewer with Python 3.
